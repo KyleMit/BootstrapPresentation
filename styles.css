@@ -1,1 +1,10 @@
-﻿
+﻿body {
+    background: whitesmoke;
+}
+#content {
+    background: white;
+    border: 1px solid lightgray;
+}
+#SiteNavBar.navbar {
+    margin-bottom: 0;
+}
