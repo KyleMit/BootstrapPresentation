@@ -46,127 +46,139 @@
             <div class="col-md-8">
                 <h2>Main Area</h2>
                 
-                <section id="CSS">
-                    <h3>CSS</h3>
+                <!-- WARNING - Missing Active Class-->
+                <ul class="nav nav-tabs">
+                    <li ><a href="#CSS" data-toggle="tab">CSS</a></li>
+                    <li><a href="#Components" data-toggle="tab">Components</a></li>
+                    <li><a href="#JavaScript" data-toggle="tab">JavaScript</a></li>
+                    <li><a href="#Customize" data-toggle="tab">Customize</a></li>
+                </ul>
+                <!-- WARNING - Missing Active Class-->
+                <div class="tab-content">
+                    <section id="CSS" class="tab-pane">
+                        <section id="GridSystem">
+                            <h4>Grid System</h4>
 
-                    <section id="GridSystem">
-                        <h4>Grid System</h4>
-
-                        <div class="row">
-                            <div class="col-xs-4">col-xs-4</div>
-                            <div class="col-xs-4">col-xs-4</div>
-                            <div class="col-xs-4">col-xs-4</div>
-                        </div>
-                    </section>
-                    
-                    <h4>Media Queries:</h4>
-                    <div class="media-example"></div>
-
-                    <h4>Tables</h4>
-                    <p><b>Here's an awesome table!</b></p>
-                    <table class="table table-striped table-hover">
-                        <thead>
-                            <tr>
-                                <th>Topic</th>
-                                <th>Presenter</th>
-                                <th>Tags</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>A Developer's Introduction to Kentico CMS </td>
-                                <td>John Bubriski</td>
-                                <td><kbd>.Net</kbd> <kbd>ASP.NET</kbd> <kbd>C#</kbd></td>
-                            </tr>
-                            <tr>
-                                <td>A Primer on Visual Studio and the Amazon Web Services SDK </td>
-                                <td>Karl Schwirz</td>
-                                <td><kbd>.Net</kbd> <kbd>Amazon Web Services</kbd> <kbd>C#</kbd></td>
-                            </tr>
-                            <tr>
-                                <td>The Story of Bing Apps: Delight Across Multiple Form Factors</td>
-                                <td>Michael Cummings</td>
-                                <td><kbd>.Net</kbd> <kbd>Android</kbd> <kbd>Bing API</kbd></td>
-                            </tr>
-                            <tr>
-                                <td>Almost 5 Years After Going Independent</td>
-                                <td>Jason Haley</td>
-                                <td><kbd>Career</kbd></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    
-                    
-                    
-                    <h4>Forms</h4>
-                    <p><b>Here's an awesome form!</b></p>
-                    <form role="form" class="form-horizontal">
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="exampleInputEmail1">Email address</label>
-                            <div class="col-sm-10">
-                                <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+                            <div class="row">
+                                <div class="col-xs-4">col-xs-4</div>
+                                <div class="col-xs-4">col-xs-4</div>
+                                <div class="col-xs-4">col-xs-4</div>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="inputPassword1" class="col-sm-2 control-label">Password</label>
-                            <div class="col-sm-10">
-                                <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-10">
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox"> Remember me
-                                    </label>
+                        </section>
+
+                        <h4>Media Queries:</h4>
+                        <div class="media-example"></div>
+
+                        <h4>Tables</h4>
+                        <p><b>Here's an awesome table!</b></p>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Topic</th>
+                                    <th>Presenter</th>
+                                    <th>Tags</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>A Developer's Introduction to Kentico CMS </td>
+                                    <td>John Bubriski</td>
+                                    <td><kbd>.Net</kbd> <kbd>ASP.NET</kbd> <kbd>C#</kbd></td>
+                                </tr>
+                                <tr>
+                                    <td>A Primer on Visual Studio and the Amazon Web Services SDK </td>
+                                    <td>Karl Schwirz</td>
+                                    <td><kbd>.Net</kbd> <kbd>Amazon Web Services</kbd> <kbd>C#</kbd></td>
+                                </tr>
+                                <tr>
+                                    <td>The Story of Bing Apps: Delight Across Multiple Form Factors</td>
+                                    <td>Michael Cummings</td>
+                                    <td><kbd>.Net</kbd> <kbd>Android</kbd> <kbd>Bing API</kbd></td>
+                                </tr>
+                                <tr>
+                                    <td>Almost 5 Years After Going Independent</td>
+                                    <td>Jason Haley</td>
+                                    <td><kbd>Career</kbd></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+
+                        <h4>Forms</h4>
+                        <p><b>Here's an awesome form!</b></p>
+                        <form role="form" class="form-horizontal">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label" for="exampleInputEmail1">Email address</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
                                 </div>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-10">
-                                <button type="submit" class="btn btn-default">Sign in</button>
+                            <div class="form-group">
+                                <label for="inputPassword1" class="col-sm-2 control-label">Password</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> Remember me
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-default">Sign in</button>
+                                </div>
+                            </div>
+                        </form>
+
+
+                        <h4>Buttons</h4>
+                        <div>
+                            <p>Anything can be (styled like) a button</p>
+
+                            <button class="btn btn-default">button</button> <br />
+                            <a class="btn btn-default">anchor</a>           <br />
+                            <p class="btn btn-default">paragraph</p>        <br />
+
+                            <p>Some more interesting cases:</p>
+
+                            <div class="btn-group">
+                                <a class="btn btn-xs btn-success" href="#">Approve</a>
+                                <a class="btn btn-xs btn-danger" href="#">Deny</a>
+                            </div><br />
+
+                            <div class="btn-group">
+                                <a class="btn btn-sm btn-success" href="#">Approve</a>
+                                <a class="btn btn-sm btn-danger" href="#">Deny</a>
+                            </div><br />
+
+                            <div class="btn-group">
+                                <a class="btn btn-success" href="#">Approve</a>
+                                <a class="btn btn-danger" href="#">Deny</a>
                             </div>
                         </div>
-                    </form>
-                    
-                    
-                    <h4>Buttons</h4>
-                    <div>
-                        <p>Anything can be (styled like) a button</p>
 
-                        <button class="btn btn-default">button</button> <br />
-                        <a class="btn btn-default">anchor</a>           <br />
-                        <p class="btn btn-default">paragraph</p>        <br />
 
-                        <p>Some more interesting cases:</p>
-
-                        <div class="btn-group">
-                            <a class="btn btn-xs btn-success" href="#">Approve</a>
-                            <a class="btn btn-xs btn-danger" href="#">Deny</a>
-                        </div><br />
-
-                        <div class="btn-group">
-                            <a class="btn btn-sm btn-success" href="#">Approve</a>
-                            <a class="btn btn-sm btn-danger" href="#">Deny</a>
-                        </div><br />
-
-                        <div class="btn-group">
-                            <a class="btn btn-success" href="#">Approve</a>
-                            <a class="btn btn-danger" href="#">Deny</a>
+                        <h4>Responsive Helpers</h4>
+                        <div>
+                            <b>
+                                <p>Warning - avoid facebook</p>
+                                <div class="visible-xs label-info">visible-xs</div>
+                                <div class="hidden-xs label-warning">hidden-xs</div>
+                            </b>
                         </div>
-                    </div>
-                    
-                    
-                    <h4>Responsive Helpers</h4>
-                    <div>
-                        <b>
-                            <p>Warning - avoid facebook</p>
-                            <div class="visible-xs label-info">visible-xs</div>
-                            <div class="hidden-xs label-warning">hidden-xs</div>
-                        </b>
-                    </div>
-                </section>
+                    </section>
+                    <section class="tab-pane" id="Components">Components</section>
+                    <section class="tab-pane" id="JavaScript">JavaScript</section>
+                    <section class="tab-pane" id="Customize">Customize</section>
+                </div>
 
+               
             </div>
 
             <!-- Sidebar -->
