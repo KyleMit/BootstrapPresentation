@@ -20,18 +20,37 @@
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
+    .media-example:after {
+        font-size: 28px;
+        display: block;
+        content: 'XS';
+        background: lightblue;
+    }
+
 
 /* Small devices  */
 @media (min-width: 768px) {
+    .media-example:after {
+        content: 'SM';
+        background: lightcoral;
+    }
 
 }
 
 /* Medium devices */
 @media (min-width: 992px) {
+    .media-example:after {
+        content: 'MD';
+        background: lightgoldenrodyellow;
+    }
 
 }
 
 /* Large devices  */
 @media (min-width: 1200px) {
+    .media-example:after {
+        content: 'LG';
+        background: lightseagreen;
+    }
 
 }
