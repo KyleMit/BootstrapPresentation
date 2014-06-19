@@ -4,7 +4,14 @@
 #content {
     background: white;
     border: 1px solid lightgray;
+    padding-bottom: 20px;
 }
 #SiteNavBar.navbar {
     margin-bottom: 0;
+}
+#GridSystem .row {
+    border: 1px solid orange;
+}
+#GridSystem .row > div {
+    border: 1px solid grey;
 }
